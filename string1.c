@@ -8,7 +8,7 @@ int main()
 
 	printf("Enter the char : " );
 	scanf("%c", &ch);
-	while(str[i]! = '\0')
+	while(str[i] != '\0')
 //	for ( i = 0 ; str[i]! ='\0' ; i++)
 	{
 		if(ch == str[i])

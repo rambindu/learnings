@@ -1,3 +1,6 @@
+/*
+ * array progarm for search elemet 
+ */
 #include <stdio.h>
 int main()
 {

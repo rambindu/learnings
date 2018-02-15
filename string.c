@@ -1,3 +1,7 @@
+/*
+ *@auther Bindu 
+ *String 
+ * */
 #include <stdio.h>
 int main()
 {
