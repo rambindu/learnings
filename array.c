@@ -1,12 +1,15 @@
 /*
- * array progarm for search elemet 
+ * array progarm for search element 
  */
 #include <stdio.h>
 int main()
 {
 	int ArrayName[10],i,j,srch;
+	char arryname[10];
 	printf("Enter the number j :");
 	scanf("%d",&j);
+	printf("Enter string  :");
+	scanf("%s",&arryname);
 	printf("Enter the array values: ");
 
 	for (i=0; i<j; i++)

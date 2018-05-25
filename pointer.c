@@ -1,3 +1,6 @@
+/*pointer program
+ */
+
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,10 +10,11 @@ int main (){
 	printf("data %d\n",*ptr);
 	printf("address %u\n",ptr++);
 	printf("address %u\n",ptr);
-//dynamic allocation of memory
-//malloc
-//calloc
-//realloc
+// dynamic allocation of memory from heap segment 
+//malloc- void *malloc(size-t n) does not i
+//calloc - void *calloc(size-t n,size -t size) it allocates the value from zero 
+//realloc 
+//deallocation free();
 	*ptr=12;
 	char *cha0 = "hello";
 	char *cha1 ={"hello1"};

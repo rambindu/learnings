@@ -1,3 +1,7 @@
+/*
+ * deleting element from array 
+*/
+
 #include<stdio.h>
 int main()
 {
