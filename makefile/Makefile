@@ -1,8 +1,8 @@
-.PHONY:all
 files:= add \
 	sum \
-
-all: compile link execute
+	
+.PHONY:all
+all: compile link 
 	@echo "done successfully"
 
 compile:
@@ -11,6 +11,9 @@ compile:
 
 link:
 	gcc $(files) -o result
+
+.PHONY:run
+run:execute
 
 execute:
 	./result

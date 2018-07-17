@@ -1,0 +1,108 @@
+HTML
+
+<html>start </html> to end
+<p>for paragraph</p>
+<br> inserts a single line break
+<pre>defines pre formatted  text</pre>
+
+
+style attribute :
+
+*<tagname style= "property:value;">
+ex:<p2 style ="background-color :powderblue;">
+*color is for text color 
+ex:<p1 style="color:green";>hi</p1>
+*font-family 
+<h1 style ="font-family :verdana;">hello world</h1>
+
+*text size
+<p style="font-size:150%;" > himabindu </p>
+
+*text align 
+<h2 style="text - align:center;" >ramakrishna</h2>
+**
+<b> bold text
+<strong> imp text
+<i> italic text
+<em>emphasized text
+<mark>marked text
+<small> small
+<del>deleted 
+<ins> inserted
+<sub> subscript
+<sup>superscripted
+**
+blockquote cite="https://www.w3schools.com/html/html_intro.asp"> 
+for 50 yeats ect </blockquote>
+	
+*abbr for abbreviation: <abbr titile ="ect">WHO</abbr>
+*<address></address>
+*<cite></cite> tile of a work
+* <bdo> bodirectonal override </bdo> 
+ex : <bdo dir ="rtl"> this text will be written from right to left</bdo>
+*<q> for short inline quotation 
+*comment : <! -- this is a comment -- >
+
+
+CSS(CASCADING STYKE SHEETS):
+css can be added in 2 ways to HTML.
+1)inline : by using the style attribute in html element 
+2)internal: by using a <style> element in <head> section
+3) external  by using an external css file 
+
+2)internal :<DOCTYPE html>
+<html>
+<head>
+<style>
+body {background -color: powderblue;}
+h1 {color:blue;}
+p {color:red;}
+</style>
+</head>
+<body>
+<h1> this is headline</h1>
+<p>paragraph</p>
+</body>
+</html>
+
+HTML LINKS:
+links are defined with the <a> tag:
+<a href="url">link text</a>
+
+Target : this will tell where to open the linked document in html
+<a href="url" 
+target ="-blank">link text</a>
+
+-blank- new window
+-self- opens in same window
+-parent- opens the link in parent frame
+-top: full body of the window
+framename :with the frame name
+tip:if ur webpage locked in frame u can use target="-top">
+
+HIML LINKS WITH IMAGE:
+
+<a href="fefault.asp">
+<img src="smiley.gif"
+alt="html totorial"
+style="width:42px;height:42px;border:0;">
+</a>
+
+TABLES:
+<table>
+	<tr> for table row
+		<th>table header
+		<td>table data
+		example: <table style="width:100%">
+		<tr>
+			<th>frist name</th>
+			<th>last name</th>
+			<th>age</th>
+		</tr>
+		<tr>
+			<td> bindu</td>
+			<td>ram</td>
+			<td>25</td>
+	</tr>
+</table>
+

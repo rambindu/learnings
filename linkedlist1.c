@@ -4,11 +4,11 @@
 #include <stdbool.h>
 
 struct node {
-	   int data;
-	      int key;
-	      	
-	         struct node *next;
-		    struct node *prev;
+   int data;
+	  int key;
+		
+		 struct node *next;
+		struct node *prev;
 };
 
 //this link always point to first Link
