@@ -12,8 +12,10 @@ void B(void (*ptr)())
  int main()
 {
     void (*ptr)() = &A;
+	printf("%d",&A);
     // calling function B and passing
     // address of the function A as argument
-    B(ptr);
+    
+	B(ptr);
    return 0;
 }
